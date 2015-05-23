@@ -10,21 +10,7 @@ This gem integrates the JavaScript editor [tagEditor](https://github.com/Pixabay
 
 Add to `Gemfile`:
 ```ruby
-gem 'scrivito', github: 'infopark/rails_connector'
-gem 'scrivito-tag-editor', require: 'scrivito_tag_editor',
-  github: 'kostia/scrivito-tag-editor'
-```
-
-Add to `app/assets/javascripts/application.js` _after_ `scrivito`:
-```javascript
-//= require scrivito-tag-editor
-```
-
-Add to `app/assets/stylesheets/application.css` _after_ `scrivito`:
-```css
-/*
- *= require scrivito-tag-editor
- */
+gem 'scrivito-tag-editor'
 ```
 
 ## Usage
